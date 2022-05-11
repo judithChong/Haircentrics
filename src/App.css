@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap');
+
+/* universal styling */
+body{
+  background: #000;
+}
+.container{
+  margin-top: 110px !important;
+}
+.card{
+
+  background-color: #fff;
+  
+}
+.card:hover{
+  transform: translateY(-15px);
+  transition: transform .3s;
+}
+.text1{
+  font-size: 13px;
+  color: #cbcbcb;
+}
+.info{
+  line-height: 17px;
+}
+.price{
+  color: #fb3531;
+  font-weight: bold;
+  font-size: 20px;
+}
+.brand{
+  background: #dc3545;
+}
+.addd{
+  background-size:100% 100%;
+  width: 1005;
+  height: 100vh;
+}
+.head{
+  background-color: rgb(185, 19, 185);
+  border-radius: 5px;
+  margin-top: -40px;
+  -webkit-box-shadow: -1px 9px 27px -8px rgba(235,23,235,1);
+  -mz-box-shadow: -1px 9px 270x -8px rgba(235,23,235,1);
+  box-shadow: -1px 9px 27px -8px rgba(235,23,235,1);
+}
+.effect-1{
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+
+
+}
+.navbar-brand{
+  text-shadow: 2px 2px;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  color:#fff;
+}
+.tip{
+  background-color:rgb(185, 19, 185);
+}
