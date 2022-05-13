@@ -18,7 +18,7 @@ import Newhairs from './components/Newhairs';
 const ERC20_DECIMALS = 18;
 
 
-const contractAddress = "0xFe2bDC4D344B901Be90C3B803DD87419A2fc7387";
+const contractAddress = "0xb967259733Bb83b7C0c6FC737E7b1190cf9dd40C";
 const cUSDContractAddress = "0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1";
 
 
@@ -101,7 +101,7 @@ function App() {
  
 
   const getHair = (async () => {
-    const hairsLength = await contract.methods.gethairsLength().call();
+    const hairsLength = await contract.methods.getHairsLength().call();
     const _hairr = []
     for (let index = 0; index < hairsLength; index++) {
       console.log(hairsLength);
@@ -159,6 +159,7 @@ const changeHairImage = async (_index, _newImage) => {
       <Hairs hairs ={hairs}
       buyHair = {buyHair}
       changeHairImage= {changeHairImage}
+      currentUser = {address}
        
       />
        <Newhairs addHair = {addHair}
