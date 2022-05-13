@@ -82,7 +82,7 @@ return (
                            </span>
                            </div>
                            <div className="col-lg-6">
-                        <input type="text" class="effect-1" placeholder="Enter Price of Hair" value={price}  onChange={(e) => setPrice(e.target.value)}/>
+                        <input type="number" class="effect-1" placeholder="Enter Price of Hair" value={price}  onChange={(e) => setPrice(e.target.value)}/>
 
                            <span class="focus-border">
 
